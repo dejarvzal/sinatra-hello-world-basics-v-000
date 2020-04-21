@@ -8,7 +8,7 @@ class App < Sinatra::Base
    end
 
    get '/'do
-     code = <%=Time.now %>
+     code = "<%=Time.now %>"
      erb code
    end
 
