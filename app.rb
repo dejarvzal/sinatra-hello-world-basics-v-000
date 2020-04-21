@@ -4,9 +4,8 @@ class App < Sinatra::Base
   get '/' do
      "Hello, World!
      If you have the ability to imagine it, or even to think about it,
-     this Universe has the ability and the resources to deliver it fully unto you!" Time.now
-    #  code = "<%=Time.now %>
-    #  erb code
+     this Universe has the ability and the resources to deliver it fully unto you!"
+
    end
 
   #  get '/'do
